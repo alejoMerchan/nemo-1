@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/nemo-1 -Dhttp.port=${PORT}
+web: target/universal/stage/bin/nemo-1 -Dhttp.port=$PORT $PLAY_OPTS
